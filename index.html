@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Watch FS</title>
+	<link rel="shortcut icon" type="image/png" href="images/smart-watch.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="styles/fontawesome.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, 
+    maximum-scale=1">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<!-- Navbar start -->
+			<nav class="nav">
+					<label for="collapse" class="btn__collapse">
+						<i class="fa fa-bars"></i>
+					</label>
+						<input type="checkbox" id="collapse" style="display: none" class="inp__collapse">
+					<div class="nav__bg"></div>
+					<div class="nav__logo"><i class="far fa-clock"></i><b>WatchFS</b></div>
+					<ul class="nav__list">
+					  <li class="nav__item"><a href="#home-area" class="nav__link">Trang Chủ</a></li>
+					  <li class="nav__item"><a href="#about-area" class="nav__link">Giới Thiệu</a></li>
+					  <li class="nav__item"><a href="#features-area" class="nav__link">Tính Năng</a></li>
+					  <li class="nav__item"><a href="#product-area" class="nav__link">Sản Phẩm</a></li>
+					  <li class="nav__item"><a href="#testimonial-area" class="nav__link">Phản Hồi</a></li>
+					  <li class="nav__item"><a href="#faq-area" class="nav__link">Hỏi Đáp</a></li>
+					  <li class="nav__item"><a href="#contact-area" class="nav__link">Liên Hệ</a></li>
+					</ul>
+					<div class="nav__button">Mua Ngay</div>
+			</nav>
+			<!-- Navbar end -->
+		</header>
+		<div class="back__home" id="back_to_top"><a href="#home-area"><i class="fas fa-arrow-up"></i></a></div>
+			
+			<!-- Casual Start -->
+		<section id="home-area">
+		<div class="container">
+			<div class="row">
+				<div class="carousel">
+					<div class="col col-md-6 img">
+						<div class="carousel__img">
+							<img src="./images/watch-4.png" alt="Image">
+						</div>
+					</div>
+					<div class="col col-md-6 content">
+						<div class="carousel__content">
+							<h1>THIẾT KẾ SANG TRỌNG</h1>
+							<p>Apple Watch với thiết kế vô cùng thời trang, toát lên sự đẳng cấp. Với mặt đồng hồ vuông bo góc và dây đeo nhiều dạng tạo nên sự sang trong của chiếc đồng hồ. Không chỉ là một chiếc SmartWatch mà còn là phụ kiện trang sức sang trọng dành cho mọi người yêu thích công nghệ.
+							</p>
+							<a href="#">Mua Ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel">
+					<div class="col col-md-6 img">
+						<div class="carousel__img">
+							<img src="./images/watch-5.png" alt="Image">
+						</div>
+					</div>
+					<div class="col col-md-6 content">
+						<div class="carousel__content">
+							<h1>TÍNH NĂNG NỔI BẬT</h1>
+							<p>Khác với các mẫu đồng hồ khác thì Apple Watch có nhiều tính năng nổi bật giúp ích cho người dùng tích cực hơn trong việc luyện tập thể dục, đếm bước chân, đo nhịp tim, nhắc vận động. Đồng thời, chúng được cập nhật nút gọi khẩn cấp tại 150 quốc gia.</p>
+							<a href="#">Mua Ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel">
+					<div class="col col-md-6 img">
+						<div class="carousel__img">
+							<img src="./images/watch-1.png" alt="Image">
+						</div>
+					</div>
+					<div class="col col-md-6 content">
+						<div class="carousel__content">
+							<h1>ĐỘC QUYỀN THỊ TRƯỜNG</h1>
+							<p>Với những tính năng mới vượt trội, hợp thời trang và xu thế của người sử dụng. Apple Wacth sở hữu lượng ifans đông đảo với doanh số bán ra hằng năm tương đối cao vì thế nó thống trị thị trường đồng hồ thông minh toàn cầu.</p>
+							<a href="#">Mua Ngay</a>
+						</div>
+					</div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+	</section>
+		<!-- Carousel End -->
+
+		<!-- About Area Start -->
+		<section id="about-area">
+			<div class="container">
+				<div class="row">
+					<div class="col col-md-6 content">
+						<div class="carousel__content">
+							<h1>ĐỒNG HỒ THÔNG MINH TỐT NHẤT</h1>
+							<p>Như một người trợ lý tận tụy, Apple Watch hoạt động liên tục, sẵn sàng cho bạn biết mọi thông số liên quan đến sức khỏe như mức độ căng thẳng, năng lượng tiêu tốn… Nhờ đó, bạn có thể hiểu và chăm sóc cơ thể cũng như thiết lập cho mình một cuộc sống lành mạnh hơn.</p>
+							<a href="#">Xem Thêm</a>
+						</div>
+					</div>
+					<div class="col col-md-6 img">
+						<div class="carousel__img">
+							<img src="./images/watch-1.png" alt="Image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About Area End -->
+		<!--Product feature start -->
+		<section id="features-area">
+			<div class="container">
+				<div class="row">
+					<div class="features__heading">
+						<h2>TÍNH NĂNG</h2>
+						<p>Những chiếc đồng hồ Apple Watch được Apple trình làng sở hữu nhiều tính năng ấn tượng.</p>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="features__single">
+							<i class="fas fa-battery-full"></i>
+							<h4>PIN</h4>
+							<p>Apple Watch có thời lượng pin sử dụng 18 giờ và việc sạc pin cho Apple Watch cũng không quá tốn thời gian.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="features__single">
+							<i class="fas fa-address-book"></i>
+							<h4>LIÊN LẠC</h4>
+							<p>Với các ứng dụng Tin nhắn, Mail, Điện thoại và Bộ đàm, bạn dễ dàng liện lạc với gia đình và đồng nghiệp.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="features__single">
+							<i class="fas fa-user-check"></i>
+							<h4>KẾT NỐI</h4>
+							<p>Trên Apple Watch có tính năng di động. Với Apple Watch có thể kết nối di động hoặc Wi-Fi, bạn có thể thực hiện nhanh một cuộc gọi.
+							</p>
+						</div>
+					</div>	
+					<div class="col-md-4 col-sm-6">
+						<div class="features__single">
+							<i class="fas fa-walking"></i>
+							<h4>DI CHUYỂN</h4>
+							<p>Apple Watch có thể theo dõi hoạt động của bạn, đồng thời khuyến khích bạn có một cuộc sống năng động hơn thông qua các lời nhắc nhẹ nhàng và các cuộc thi đấu hữu nghị.
+								 </p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="features__single">
+							<i class="fas fa-tint-slash"></i>
+							<h4>KHẢ NĂNG CHỐNG NƯỚC</h4>
+							<p>Khác với các đồng hồ khác thì Apple Watch hoàn toàn nhắm vào sự tiện lợi cho người chơi thể thao, với khả năng chống nước cao mà không phải đồng hồ nào cũng làm được.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="features__single">
+							<i class="fas fa-heartbeat"></i>
+							<h4>SỨC KHỎE</h4>
+							<p>Sức khỏe là một điều mà chúng ta phải trân trọng, chính vì vậy mà Apple Watch sử dụng ứng dụng luyện tập cho sức khỏe người sử dụng, kiểm tra mức độ luyện tập, hoạt động.</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Product feature end -->
+		<!-- Video area start -->
+		<section id="video-area" class="bg-cover">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="video-content text-center-video">
+                            <h2>Watch Demo Video</h2>
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=5bvcyIV4yzo&t=17s" target="_blank"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!-- Video area end -->
+		<!-- Core Features start -->
+		<section id="core-features-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="section-heading text-center">
+                            <h2>TÍNH NĂNG CỐT LỖI</h2>
+                            <p>Apple Watch có rất nhiều tính năng nhưng tính năng cốt lỗi cửa Apple Watch </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-offset-1">
+                        <div class="core-features-single">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="core-feature-content arrow-right">
+                                        <i class="fab fa-android"></i>
+                                        <h4>MỌI ỨNG DỤNG BẠN MUỐN</h4>
+                                        <p>Bạn sẽ không chỉ cần gửi và nhận tin nhắn, cuộc gọi và thư dễ dàng và tiện lợi hơn. Bạn sẽ thể hiện bản thân theo những cách độc đáo, vui vẻ và cá tính hơn. Giao tiếp với Watch là kín đáo, tinh vi và nhiều sắc thái, một cách hoàn toàn mới để kết nối với người khác.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="core-feature-img">
+                                        <img src="images/watch-4.png" class="img-responsive" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="core-features-single">
+                            <div class="row">
+								<div class="col-sm-6 content">
+									<div class="core-feature-content arrow-left">
+										<i class="fas fa-hand-holding-heart"></i>
+										<h4>SỨC KHỎE VÀ CÂN ĐỐI</h4>
+										<p>Tập thể hình chỉ là về chạy bộ, đi xe đạp hoặc tập gym. Nó cũng nói về việc hoạt động trong ngày. Đồng hồ đo tất cả các cách bạn di chuyển, chẳng hạn như dắt chó đi dạo, đi cầu thang hoặc chơi với con bạn. Nó thậm chí còn theo dõi khi bạn đứng lên.</p>
+									</div>
+								</div>
+                                <div class="col-sm-6 img">
+                                    <div class="core-feature-img">
+                                        <img src="images/watch-5.png" class="img-responsive" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="core-features-single">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="core-feature-content arrow-right">
+                                      <i class="fas fa-shield-alt"></i>
+                                        <h4>GIẢM VA ĐẬP</h4>
+                                        <p>Bạn không thể làm rơi Apple Watch vì nó đeo vào cổ tay của bạn... Có lẽ những người liên tục bị va đồng hồ vào tường nên xem xét một trường hợp. Nhưng cũng như bất kỳ chiếc đồng hồ đắt tiền nào khác, Apple Watch được thiết kế để chịu được sự hao mòn hàng ngày.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="core-feature-img">
+                                        <img src="images/watch-1.png" class="img-responsive" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!-- End Core Features Section -->
+		<!-- Start my choose area -->
+		<section id="why-choose-area" class="bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="why-choose-image">
+                            <img src="images/watch-6.png" class="img-responsive" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="why-choose-content">
+                            <h2>TẠI SAO NÊN CHỌN APPLE WATCH?</h2>
+                            <p>Như một người trợ lý tận tụy, Apple Watch hoạt động liên tục, sẵn sàng cho bạn biết mọi thông số liên quan đến sức khỏe như mức độ căng thẳng, năng lượng tiêu tốn… Nhờ đó, bạn có thể hiểu và chăm sóc cơ thể cũng như thiết lập cho mình một cuộc sống lành mạnh hơn. Apple Watch. Đây là một chiếc đồng hồ thông minh với sức hấp dẫn mạnh mẽ đối với những người yêu thích công nghệ. Và dưới đây là một số đánh giá về chiếc đồng hồ thông minh Apple.</p>
+                            <ul>
+                                <li><i class="fas fa-check-square"></i> Thiết kế hấp dẫn với nhiều màu</li>
+                                <li><i class="fas fa-check-square"></i> Hỗ trợ ứng dụng Android và iOS</li>
+                                <li><i class="fas fa-check-square"></i> Gọi ngay và tiện ích trò chuyện trực tiếp</li>
+                                <li><i class="fas fa-check-square"></i> Thiết bị thân thiện với người dùng</li>
+                                <li><i class="fas fa-check-square"></i> Đội ngũ hỗ trợ tận tâm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!-- end my choose area -->
+		<section id="product-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="section-heading text-center">
+                            <h2>SẢN PHẨM</h2>
+                            <p>Bạn là duy nhất. Bạn có phong cách độc đáo và bạn cần một chiếc đồng hồ độc đáo cho bạn. Chọn từ bộ sưu tập đồng hồ thông minh của chúng tôi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="product-single text-center">
+                            <img src="images/watch-3.png" class="img-responsive" alt="Image">
+                            <h4>Apple Watch Series 5 GPS, 40mm viền nhôm hồng dây cao su trắng MWV62VN/A</h4>
+                            <h3><span>$</span> 11.990.000 VND</h3>
+                            <a href=""><i class="icofont icofont-cart"></i> Mua Ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="product-single text-center">
+                            <img src="images/watch-4.png" class="img-responsive" alt="Image">
+                            <h4>Apple Watch Series 4 GPS, 44mm viền nhôm vàng dây cao su đỏ MU6D2VN/A</h4>
+                            <h3><span>$</span> 11.990.000 VND</h3>
+                            <a href=""><i class="icofont icofont-cart"></i> Mua Ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="product-single text-center">
+                            <img src="images/watch-5.png" class="img-responsive" alt="Image">
+                            <h4>Apple Watch Series 3 GPS, 38mm viền nhôm bạc dây cao su xanh MTEY2VN/A</h4>
+                            <h3><span>$</span> 5.990.000 VND</h3>
+                            <a href=""><i class="icofont icofont-cart"></i> Mua Ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="product-single text-center">
+                            <img src="images/watch-8.png" class="img-responsive" alt="Image">
+                            <h4>Apple Watch Series 4 GPS, 44mm viền nhôm bạc dây kim loại đen MU6E2VN/A</h4>
+                            <h3><span>$</span> 11.990.000 VND</h3>
+                            <a href=""><i class="icofont icofont-cart"></i> Mua Ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="product-single text-center">
+                            <img src="images/watch-7.png" class="img-responsive" alt="Image">
+                            <h4>Apple Watch Series 2 viền nhôm đen 38mm dây cao su chấm đen MWV62VN/A</h4>
+                            <h3><span>$</span> 3.800.000 VND</h3>
+                            <a href=""><i class="icofont icofont-cart"></i> Mua Ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="product-single text-center">
+                            <img src="images/watch-1.png" class="img-responsive" alt="Image">
+                            <h4>Apple Watch Series 5 GPS, 40mm viền nhôm vàng dây cao su trắng MWV62VN/A</h4>
+                            <h3><span>$</span> 11.990.000 VND</h3>
+                            <a href=""><i class="icofont icofont-cart"></i> Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</section>
+		<!-- End my choose area -->
+		<!-- Start testimonial area -->
+		<section id="testimonial-area" class="bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="section-heading text-center">
+                            <h2>PHẢN HỒI TỪ KHÁCH HÀNG</h2>
+                            <p>Apple cố gắng mang lại trải nghiệm tốt nhất cho người tiêu dùng trên khắp thế giới. Apple hoan nghênh phản hồi của bạn về các sản phẩm của mình. Và sau đây là một số phản hồi tích cực về Apple Watch.</p>
+                        </div>
+                    </div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 testimonial-carousel-content">
+						<div class="info-testimonial">
+							<p>Apple Watch là chiếc đồng hồ thông minh đẹp nhất hiện có, nó vừa đẹp và dễ sử dụng. Hầu hết các tính năng của đồng hồ là tuyệt vời.</p>
+						</div>
+						<div class="content-testimonial">
+							<img src="images/client-img-1.jpg" alt="">
+							<h5>Donal Trump</h5>
+							
+						</div>
+					</div>
+					<div class="col-md-4 testimonial-carousel-content">
+						<div class="info-testimonial">
+							<p>Apple Watch là chiếc đồng hồ thông minh tốt nhất mà chúng tôi đã sử dụng và là chiếc đầu tiên cảm thấy thân thiện và có tính cách.</p>
+						</div>
+						<div class="content-testimonial">
+							<img src="images/client-img-2.jpg" alt="">
+							<h5>Obama</h5>
+							
+						</div>
+					</div>
+					<div class="col-md-4 testimonial-carousel-content">
+						<div class="info-testimonial">
+							<p>Apple Watch là chiếc đồng hồ thông minh tiện lợi, được xây dựng tốt nhất mà tôi từng sử dụng,phù hợp cho mọi người dùng.</p>
+						</div>
+						<div class="content-testimonial">
+							<img src="images/client-img-3.jpg" alt="">
+							<h5>JEK</h5>
+							
+						</div>
+					</div>
+				</div> 
+            </div>
+        </section>
+		<!-- End testimonial area -->
+
+		<!-- start faq area -->
+		<section id="faq-area">
+            <div class="container">
+				<div class="row">
+					<div class="col-sm-offset-3">
+						<div class="section-heading text-center">
+							<h2>CÂU HỎI THƯỜNG GẶP</h2>
+							<p>Có câu hỏi nào không? Chúng tôi đã có câu trả lời. Nếu bạn có một số câu hỏi khác, vui lòng gửi email cho chúng tôi đến nhom_@gmail.com</p>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+					<div class="col-md-6">
+						<div class="accordion-content">
+							<button class="accordion">Tôi có thể sử dụng đồng hồ Apple mà không cần điện thoại của bạn?</button>
+							<div class="panel">
+								<p>Apple Watch cho phép bạn duy trì kết nối mà không cần iPhone nhờ kết nối di động và khả năng thực hiện và nhận các cuộc gọi điện thoại, gửi và nhận tin nhắn và sử dụng một số ứng dụng nhất định như Mail và Music. ... Bạn thậm chí có thể sử dụng Apple Pay trong Wallet trên Apple Watch có hoặc không có kết nối Internet.</p>
+							</div>
+							
+							<button class="accordion">Đồng hồ được sản xuất như thế nào?</button>
+							<div class="panel">
+								<p>Đồng hồ có vỏ nhôm được anot hóa (nhẹ hơn thép không gỉ) màu bạc hoặc xám không gian, và mặt là kính Ion-X, cũng được thiết kế cứng và chắc chắn (cũng như nhẹ hơn một chút) so với sapphire. Nó chắc chắn là phiên bản nhẹ nhất trong ba phiên bản Apple Watch, khiến nó trở thành người bạn đồng hành lý tưởng..</p>
+							</div>
+							
+							<button class="accordion">Tôi có thể nhắn tin trên Apple Watch không?</button>
+							<div class="panel">
+								<p>Với Tin nhắn trên Apple Watch, bạn sẽ nhận được cảnh báo khi nhận được iMessage hoặc tin nhắn văn bản mới. Để đọc nó, chỉ cần nâng cổ tay của bạn. Bạn cũng có thể xem và trả lời tin nhắn văn bản trực tiếp từ ứng dụng Tin nhắn. Turn Crown kỹ thuật số để cuộn xuống cuối tin nhắn.</p>
+							</div>
+
+							<button class="accordion">Có nên đeo đồng hồ Apple đi ngủ?</button>
+							<div class="panel">
+								<p>Bằng cách đeo đồng hồ lên giường và sử dụng một ứng dụng để theo dõi giấc ngủ của bạn, bạn có thể biết được bạn ngủ bao lâu trong một đêm thông thường, cũng như bạn đang ngủ sâu như thế nào... Apple Watch của bạn sẽ không hết pin vào giữa đêm nếu bạn tăng cường năng lượng trước khi đi ngủ.</p>
+							</div>
+							
+							<button class="accordion">Tôi có bị tính phí cho cuộc gọi WiFi không? ?</button>
+							<div class="panel">
+								<p>Lợi ích của Gọi Wi-Fi: Được bao gồm miễn phí với gói thoại hiện có và thiết bị tương thích giọng nói HD của bạn. Bạn thực hiện và nhận cuộc gọi bằng Wi-Fi bằng số điện thoại của mình... Các cuộc gọi Wi-Fi đến các số của Hoa Kỳ là miễn phí, ngay cả khi đang đi du lịch quốc tế.</p>
+							</div>	
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="faq-img">
+							<img src="./images/watch-5.png" alt="">							
+						</div>
+					</div>
+				</div>
+            </div>
+		</section>
+		<!--End faq area -->
+		<!-- subscribe start -->
+		<section id="subscribe-area" class="bg-cover">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="subscribe-content">
+								<h2>THEO DÕI BẢN TIN CỦA CHÚNG TÔI ĐỂ CẬP NHẬT TIN TỨC</h2>
+								<form action="#" method="POST">
+									<input type="text" class="form-group" placeholder="Nhập Email">
+									<button type="submit">ĐĂNG KÝ NGAY</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- subscribe end -->
+
+			<!-- Start Contact -->
+			<section id="contact-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="section-heading text-center">
+								<h2>MỘT SỐ CÂU HỎI?</h2>
+								<p>Gửi mail cho chúng tôi với câu hỏi của bạn.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-2 col-sm-8">
+							<div class="contact-form">
+								<form action="#" method="post">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Tên">
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Sản Phẩm">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" cols="30" rows="10"></textarea>
+									</div>
+									<button type="submit">Gửi</button>
+								</form>
+							</div>
+						</div>
+	
+						<div class="col-md-3 col-sm-4">
+							<div class="contact-info">
+								<div class="contact-info-single">
+									<h6><i class="fas fa-phone-alt"></i> GỌI CHO TÔI :</h6>
+									<p>+01 12345 67890 <br> +02 12345 67890</p>
+								</div>
+								<div class="contact-info-single">
+									<h6><i class="fas fa-envelope-open-text"></i> Mail CỦA TÔI :</h6>
+									<p>info@yourmail.com <br> support@yourmail.com</p>
+								</div>
+								<div class="contact-info-single">
+									<h6><i class="fas fa-phone-alt"></i> ĐỊA CHỈ CỦA TÔI :</h6>
+									<p>25 Đại học An Giang <br> Long Xuyên, An Giang</p>
+								</div>
+								<div class="contact-social">
+									<h6>THEO DÕI TÔI :</h6>
+									<ul>
+										<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+										<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+										<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+										<li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End contact -->
+
+			<!-- start footer -->
+			<footer id="footer" class="bg-gray">
+				<div class="container">
+					<p class="text-center">&copy; Copy 2019 BA CHÀNG NGỰ LÂM</p>
+				</div>
+			</footer>
+			<!-- end footer -->
+				
+	</div>
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("carousel");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace("active", "");
+		  }
+		  slides[slideIndex-1].style.display = "flex";  
+		  dots[slideIndex-1].className += " active";
+
+		}
+		</script>
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+				  panel.style.maxHeight = null;
+				} else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+			  });
+			}
+		</script>
+		<script>
+		//Get the button:
+		mybutton = document.getElementById("back_to_top");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+</script>
+</body>
+</html>
